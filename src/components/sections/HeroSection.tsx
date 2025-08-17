@@ -18,15 +18,15 @@ export default function HeroSection() {
             className="space-y-4"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight">
-              교회 예배팀을 위한
+              All-in-One Management for
               <br />
-              <span className="text-primary">올인원 관리 솔루션</span>
+              <span className="text-primary">Worship Teams</span>
             </h1>
             
             <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              찬양곡부터 세트리스트까지, 예배 준비를 더 쉽고 체계적으로
+              Streamline your worship preparation from songs to setlists
               <br />
-              <span className="font-medium text-foreground">ByWorship과 함께 예배팀 관리를 혁신하세요</span>
+              <span className="font-medium text-foreground">Transform your team management with ByWorship</span>
             </p>
           </motion.div>
 
@@ -37,13 +37,13 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Button size="lg" className="text-lg px-8 py-4 h-auto group">
-              무료로 시작하기
+              Get Started
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
             <Button variant="outline" size="lg" className="text-lg px-8 py-4 h-auto group">
               <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-              데모 보기
+              View Demo
             </Button>
           </motion.div>
 
@@ -54,21 +54,21 @@ export default function HeroSection() {
             className="pt-8"
           >
             <p className="text-sm text-muted-foreground mb-4">
-              신용카드 불필요 • 30일 무료 체험 • 설정 지원 제공
+              No credit card required • Easy setup • Full support included
             </p>
             
             <div className="flex items-center justify-center space-x-8 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span>1,000+ 교회</span>
+                <span>Easy to use</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                <span>50,000+ 곡 관리</span>
+                <span>Cloud-based</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                <span>99.9% 가동률</span>
+                <span>Secure platform</span>
               </div>
             </div>
           </motion.div>
@@ -89,10 +89,10 @@ export default function HeroSection() {
                     <Play className="w-8 h-8 text-primary" />
                   </div>
                   <p className="text-muted-foreground font-medium">
-                    ByWorship 대시보드 미리보기
+                    ByWorship Dashboard Preview
                   </p>
                   <p className="text-sm text-muted-foreground max-w-md mx-auto">
-                    실제 제품 스크린샷이 여기에 표시됩니다
+                    Live product screenshot will be displayed here
                   </p>
                 </div>
               </div>

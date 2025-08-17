@@ -13,32 +13,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ByWorship - 교회 예배팀을 위한 올인원 관리 솔루션",
-  description: "찬양곡부터 세트리스트까지, 예배 준비를 더 쉽고 체계적으로. ByWorship으로 예배팀 관리를 혁신하세요. 30일 무료 체험.",
-  keywords: ["교회", "예배팀", "찬양곡", "세트리스트", "팀 관리", "공지사항", "예배 준비", "교회 관리"],
+  title: "ByWorship - All-in-One Worship Team Management Solution",
+  description: "Streamline your worship preparation from songs to setlists. Transform your worship team management with ByWorship's comprehensive platform.",
+  keywords: ["worship team", "church management", "songs", "setlists", "team management", "worship preparation", "church software"],
   authors: [{ name: "ByWorship" }],
   creator: "ByWorship",
   publisher: "ByWorship",
   openGraph: {
     type: "website",
-    locale: "ko_KR",
+    locale: "en_US",
     url: "https://byworship.com",
-    title: "ByWorship - 교회 예배팀을 위한 올인원 관리 솔루션",
-    description: "찬양곡부터 세트리스트까지, 예배 준비를 더 쉽고 체계적으로. ByWorship으로 예배팀 관리를 혁신하세요.",
+    title: "ByWorship - All-in-One Worship Team Management Solution",
+    description: "Streamline your worship preparation from songs to setlists. Transform your worship team management with ByWorship's comprehensive platform.",
     siteName: "ByWorship",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ByWorship - 교회 예배팀 관리 솔루션",
+        alt: "ByWorship - Worship Team Management Solution",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ByWorship - 교회 예배팀을 위한 올인원 관리 솔루션",
-    description: "찬양곡부터 세트리스트까지, 예배 준비를 더 쉽고 체계적으로",
+    title: "ByWorship - All-in-One Worship Team Management Solution",
+    description: "Streamline your worship preparation from songs to setlists",
     images: ["/og-image.png"],
   },
   robots: {
@@ -63,7 +63,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
+    <html lang="en">
       <head>
         <link rel="canonical" href="https://byworship.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

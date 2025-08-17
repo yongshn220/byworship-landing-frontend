@@ -17,10 +17,10 @@ export default function CTASection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            지금 바로 시작하세요
+            Ready to Get Started?
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-            더 나은 예배 준비, 더 강화된 팀워크를 경험해보세요
+            Transform your worship preparation and strengthen your team collaboration
           </p>
         </motion.div>
 
@@ -39,44 +39,44 @@ export default function CTASection() {
                 </div>
                 
                 <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
-                  30일 무료 체험으로 모든 기능을 경험하세요
+                  Experience the complete solution for your worship team
                 </h3>
                 
                 <p className="text-muted-foreground text-lg mb-8">
-                  신용카드 등록 없이 지금 바로 시작할 수 있습니다
+                  Get started today and see how ByWorship can transform your team management
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                   <Button size="lg" className="text-lg px-8 py-4 h-auto group">
-                    무료로 시작하기
+                    Get Started
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                   
                   <Button variant="outline" size="lg" className="text-lg px-8 py-4 h-auto group">
                     <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                    데모 보기
+                    View Demo
                   </Button>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
                   <div className="flex items-center justify-center space-x-2 text-green-600">
                     <CheckCircle className="w-5 h-5" />
-                    <span className="text-sm font-medium">신용카드 불필요</span>
+                    <span className="text-sm font-medium">Easy setup</span>
                   </div>
                   <div className="flex items-center justify-center space-x-2 text-green-600">
                     <CheckCircle className="w-5 h-5" />
-                    <span className="text-sm font-medium">30일 무료 체험</span>
+                    <span className="text-sm font-medium">Full support</span>
                   </div>
                   <div className="flex items-center justify-center space-x-2 text-green-600">
                     <CheckCircle className="w-5 h-5" />
-                    <span className="text-sm font-medium">언제든 해지 가능</span>
+                    <span className="text-sm font-medium">Secure platform</span>
                   </div>
                 </div>
               </div>
 
               <div className="border-t border-muted pt-8">
                 <h4 className="text-xl font-bold text-foreground text-center mb-6">
-                  설정부터 사용법까지 완벽 지원
+                  Complete support for your team
                 </h4>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -84,9 +84,9 @@ export default function CTASection() {
                     <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
                       <Calendar className="w-6 h-6 text-primary" />
                     </div>
-                    <h5 className="font-semibold text-foreground mb-2">맞춤 온보딩</h5>
+                    <h5 className="font-semibold text-foreground mb-2">Easy Onboarding</h5>
                     <p className="text-sm text-muted-foreground">
-                      교회 환경에 맞는 초기 설정을 전담팀이 지원합니다
+                      Simple setup process tailored to your worship team's needs
                     </p>
                   </div>
                   
@@ -94,9 +94,9 @@ export default function CTASection() {
                     <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
                       <Phone className="w-6 h-6 text-primary" />
                     </div>
-                    <h5 className="font-semibold text-foreground mb-2">실시간 지원</h5>
+                    <h5 className="font-semibold text-foreground mb-2">Dedicated Support</h5>
                     <p className="text-sm text-muted-foreground">
-                      궁금한 점이 있으면 전화나 채팅으로 즉시 문의하세요
+                      Get help when you need it through multiple support channels
                     </p>
                   </div>
                   
@@ -104,9 +104,9 @@ export default function CTASection() {
                     <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
                       <Mail className="w-6 h-6 text-primary" />
                     </div>
-                    <h5 className="font-semibold text-foreground mb-2">교육 자료</h5>
+                    <h5 className="font-semibold text-foreground mb-2">Learning Resources</h5>
                     <p className="text-sm text-muted-foreground">
-                      사용법 가이드와 팁을 이메일로 받아보세요
+                      Access guides, tutorials, and best practices for your team
                     </p>
                   </div>
                 </div>
@@ -124,12 +124,12 @@ export default function CTASection() {
         >
           <div className="max-w-2xl mx-auto">
             <h4 className="text-lg font-semibold text-foreground mb-4">
-              궁금한 점이 있으시다면 언제든 연락하세요
+              Have questions? We're here to help
             </h4>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>1588-0000</span>
+                <span>+1 (555) 123-4567</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
@@ -137,7 +137,7 @@ export default function CTASection() {
               </div>
             </div>
             <p className="text-sm text-muted-foreground mt-4">
-              평일 9:00-18:00, 주말 및 공휴일 제외
+              Available Monday - Friday, 9:00 AM - 6:00 PM EST
             </p>
           </div>
         </motion.div>
@@ -151,10 +151,10 @@ export default function CTASection() {
         >
           <div className="bg-gradient-to-r from-primary to-blue-500 text-white rounded-2xl p-8 max-w-3xl mx-auto">
             <h3 className="text-xl lg:text-2xl font-bold mb-4">
-              이미 1,000개 이상의 교회가 선택했습니다
+              Join worship teams around the world
             </h3>
             <p className="mb-6 opacity-90">
-              여러분의 교회도 ByWorship과 함께 더 나은 예배를 준비해보세요
+              Transform your worship preparation with ByWorship's comprehensive platform
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button 
@@ -162,7 +162,7 @@ export default function CTASection() {
                 size="lg" 
                 className="bg-white text-primary hover:bg-gray-100"
               >
-                지금 시작하기
+                Get Started Today
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </div>

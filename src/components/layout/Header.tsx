@@ -17,22 +17,19 @@ export default function Header() {
 
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
-              기능
+              Features
             </a>
-            <a href="#benefits" className="text-foreground hover:text-primary transition-colors">
-              혜택
+            <a href="#about" className="text-foreground hover:text-primary transition-colors">
+              About
             </a>
-            <a href="#pricing" className="text-foreground hover:text-primary transition-colors">
-              요금제
-            </a>
-            <a href="#testimonials" className="text-foreground hover:text-primary transition-colors">
-              후기
+            <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+              Contact
             </a>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost">데모 보기</Button>
-            <Button>무료로 시작하기</Button>
+            <Button variant="ghost">View Demo</Button>
+            <Button>Get Started</Button>
           </div>
 
           <div className="md:hidden">
@@ -50,20 +47,17 @@ export default function Header() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-b border-muted">
               <a href="#features" className="block px-3 py-2 text-foreground hover:text-primary">
-                기능
+                Features
               </a>
-              <a href="#benefits" className="block px-3 py-2 text-foreground hover:text-primary">
-                혜택
+              <a href="#about" className="block px-3 py-2 text-foreground hover:text-primary">
+                About
               </a>
-              <a href="#pricing" className="block px-3 py-2 text-foreground hover:text-primary">
-                요금제
-              </a>
-              <a href="#testimonials" className="block px-3 py-2 text-foreground hover:text-primary">
-                후기
+              <a href="#contact" className="block px-3 py-2 text-foreground hover:text-primary">
+                Contact
               </a>
               <div className="flex flex-col space-y-2 px-3 pt-2">
-                <Button variant="ghost" className="justify-start">데모 보기</Button>
-                <Button className="justify-start">무료로 시작하기</Button>
+                <Button variant="ghost" className="justify-start">View Demo</Button>
+                <Button className="justify-start">Get Started</Button>
               </div>
             </div>
           </div>

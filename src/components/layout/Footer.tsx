@@ -6,34 +6,34 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="text-2xl font-bold text-primary">ByWorship</div>
             <p className="text-muted-foreground">
-              교회 예배팀을 위한 올인원 관리 솔루션
+              All-in-one management solution for worship teams
             </p>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">제품</h3>
+            <h3 className="font-semibold text-foreground">Product</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#features" className="hover:text-primary transition-colors">기능</a></li>
-              <li><a href="#pricing" className="hover:text-primary transition-colors">요금제</a></li>
+              <li><a href="#features" className="hover:text-primary transition-colors">Features</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Demo</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">API</a></li>
             </ul>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">지원</h3>
+            <h3 className="font-semibold text-foreground">Support</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">도움말</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">문의하기</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">커뮤니티</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Help Center</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Community</a></li>
             </ul>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">회사</h3>
+            <h3 className="font-semibold text-foreground">Company</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">소개</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">블로그</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">개인정보처리방침</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">About</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
