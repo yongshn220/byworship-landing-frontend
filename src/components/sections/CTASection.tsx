@@ -86,7 +86,7 @@ export default function CTASection() {
                     </div>
                     <h5 className="font-semibold text-foreground mb-2">Easy Onboarding</h5>
                     <p className="text-sm text-muted-foreground">
-                      Simple setup process tailored to your worship team's needs
+                      Simple setup process tailored to your worship team&apos;s needs
                     </p>
                   </div>
                   
@@ -124,7 +124,7 @@ export default function CTASection() {
         >
           <div className="max-w-2xl mx-auto">
             <h4 className="text-lg font-semibold text-foreground mb-4">
-              Have questions? We're here to help
+              Have questions? We&apos;re here to help
             </h4>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-muted-foreground">
               <div className="flex items-center space-x-2">
@@ -154,7 +154,7 @@ export default function CTASection() {
               Join worship teams around the world
             </h3>
             <p className="mb-6 opacity-90">
-              Transform your worship preparation with ByWorship's comprehensive platform
+              Transform your worship preparation with ByWorship&apos;s comprehensive platform
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button 
